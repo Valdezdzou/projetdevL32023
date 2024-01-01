@@ -1,0 +1,65 @@
+<ion-header [translucent]="true" >
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+  </ion-buttons>
+    <ion-title style="text-align: center;">Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="cadre">
+    <ion-card>
+        <ion-card-header>
+            <img src="../../../assets/images/hilton.jpg">
+            <ion-list lines="none">
+              <ion-item>
+                <ion-label style="text-align: center;">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </ion-label>
+              </ion-item>
+            </ion-list>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-list lines="none">
+                  <ion-item>
+                      <ion-label>
+                          <h2>Nom :</h2>
+                      </ion-label>
+                      <ion-label>
+                          <h3>Hilton</h3>
+                      </ion-label>
+                  </ion-item>
+                  <ion-item>
+                      <ion-label><h2>Lieu :</h2></ion-label>
+                      <ion-label><h3>Yaounde</h3></ion-label>
+                      <ion-label class="etu"><button>Itineraire</button><ion-icon name="pin-sharp"></ion-icon></ion-label>
+                  </ion-item>
+                  <ion-item>
+                      <ion-label><h4>Heure O : </h4></ion-label>
+                      <ion-label><h3>07h30</h3></ion-label>
+                      <ion-label><h4>Heure F : </h4></ion-label>
+                      <ion-label><h3>22h30</h3></ion-label>
+                  </ion-item>
+                  <ion-item>
+                    <ion-label><h2>Description :</h2></ion-label>
+                  </ion-item>
+                  <ion-item>
+                      <ion-label><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, laudantium, molestias odio veritatis consequuntur enim ullam hic porro dolores ducimus vero dignissimos quisquam nostrum sequi voluptatum totam? Cupiditate, ipsam officiis.</p></ion-label>
+                  </ion-item>
+                  <ion-item>
+                    <ion-label><h2>Service Client :</h2></ion-label>
+                    <ion-label><h3>+237 698547852 </h3></ion-label>
+                  </ion-item>
+                  <ion-item>
+                      <ion-button>contactez</ion-button>
+                  </ion-item>
+            </ion-list>
+        </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

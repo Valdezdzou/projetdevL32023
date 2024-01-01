@@ -1,0 +1,7 @@
+{
+  "name": "enjoyApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

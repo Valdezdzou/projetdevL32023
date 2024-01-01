@@ -1,0 +1,45 @@
+ion-icon{
+    color: darkorange;
+  }
+
+  h2{
+    font-family: cursive;
+    color:blue;
+  }
+
+  h4{
+    font-family: cursive;
+    color:blue;
+  }
+
+  ion-button{
+    --background: rgb(28, 45, 74);
+    --border-radius: 30px;
+    width: 270px;
+    height: 44px;
+    justify-content: center;
+    font-family: cursive;
+    padding: 3px;
+}
+
+
+
+.etu{
+
+  button{
+    width: 84px;
+    height: 28px;
+    border-radius: 30px;
+    background-color: bisque;
+    font-size: 15px;
+  }
+
+  ion-icon{
+    font-size: 34px;
+    position: absolute;
+    bottom: 11px;
+    right: -3px;
+    color: crimson;
+  }
+
+}

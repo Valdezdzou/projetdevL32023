@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+ion-content{
+  --background:none;
+  background-image: url('../../../assets/images/fond.jpg');
+  background-repeat: no-repeat;
+  // background-color: rgb(94, 87, 175);
+  // background-position: bottom right;
+  background-size:cover;
+  justify-content: center;
+  
+}
+
+ion-button{
+    --background: rgb(28, 45, 74);
+    --border-radius: 30px;
+    width: 250px;
+    height: 46px;
+}
+.monbutton{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+  margin-top: 40px;
+  padding: 24.7px;
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+  padding-bottom: 22rem;
+}
+
+
+
+
+// img{
+//     height: 100px;
+//     width: 100px;
+//     border-radius: 100px;
+//     position: absolute;
+//     top:12px;
+//     backdrop-filter: blur(10px);
+// }
+
+.img1{
+  height: 120px;
+  width: 120px;
+  border-radius: 100px;
+  position: absolute;
+  top: 42px;
+  right: -18px;
+  backdrop-filter: blur(10px);
+}
+
+.img2{
+  height: 100px;
+  width: 115px;
+  border-radius: 100px;
+  position: absolute;
+  top: 250px;
+  left: 228px; 
+}
+
+.img3{
+  height: 125px;
+  width: 157px;
+  border-radius: 100px;
+  position: absolute;
+  bottom: -13px;
+  right: -53px;
+}
+
+.img4{
+  height: 146px;
+  width: 150px;
+  border-radius: 100px;
+  position: absolute;
+  top: 267px;
+  right: 261px;
+  // filter : blur(40px);
+}
+
+.img5{
+  height: 22em;
+  width: 18em;
+  border-radius: 0px;
+  position: absolute;
+  bottom: 126px;
+  left: 160px;
+  transform: rotate(54deg);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+ion-icon{
+  color: aliceblue;
+}

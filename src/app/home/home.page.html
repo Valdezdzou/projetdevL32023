@@ -1,0 +1,89 @@
+<!-- <ion-header [translucent]="false" home-header>
+
+</ion-header> -->
+
+<ion-content [fullscreen]="true">
+  <!-- <ion-header [translucent]="true">
+    <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header> -->
+  <!-- <ion-icon name="pin-sharp"></ion-icon>
+  <ion-icon name="location-sharp"></ion-icon>
+  <ion-icon name="locate-sharp"></ion-icon> -->
+  <h5>sites touristique</h5>
+  <swiper-container [slidesPerView]="1.2" [initialSlide]="1" [centeredSlides]="true" [spaceBetween]="10"
+  [pagination]="{clickable:true, dynamicBullets:true}" [autoplay]="true" [effect]="'coverflow'" [coverflowEffect]="{
+    rotate: 10,
+    stretch: 10,
+    depth: 150,
+    modifier: 2,
+    slideShadows: true} 
+    "  [loop]="true">
+        <swiper-slide>
+          <img src="../../assets/images/Monumentcameroun.jpg" alt="photo">
+        </swiper-slide>
+        <swiper-slide>
+          <img src="../../assets/images/Nigeria.webp" alt="photo">
+        </swiper-slide>
+        <swiper-slide>
+          <img src="../../assets/images/afrique-du-sud.jpg" alt="photo">
+        </swiper-slide>
+        <swiper-slide>
+          <img src="../../assets/images/Monument coteivoire.jpg" alt="photo">
+        </swiper-slide>
+  </swiper-container>
+
+  <h5>Pays</h5>
+  <hr>
+
+  <ion-grid>
+      <ion-row>
+          <ion-col>
+              <ion-card [routerLink]="['/pays']">
+                  <ion-card-header>
+                      <ion-card-subtitle>Cameroun</ion-card-subtitle>
+                      <ion-card-title style="text-align: center;"><img src="../../assets/images/cameroun.png" alt="photo"></ion-card-title>
+                  </ion-card-header>
+                  <ion-card-content>
+                  </ion-card-content>
+              </ion-card>
+          </ion-col>
+          <ion-col>
+            <ion-card [routerLink]="['/pays']">
+              <ion-card-header>
+                  <ion-card-subtitle>Afrique du sud</ion-card-subtitle>
+                  <ion-card-title style="text-align: center;"><img src="../../assets/images/afrique du sud.png" alt="photo"></ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+              </ion-card-content>
+          </ion-card>
+          </ion-col>
+      </ion-row>
+      <ion-row>
+          <ion-col>
+                <ion-card [routerLink]="['/pays']">
+                    <ion-card-header>
+                        <ion-card-subtitle>Nigeria</ion-card-subtitle>
+                        <ion-card-title style="text-align: center;"><img src="../../assets/images/nigeria.jpg" alt="photo"></ion-card-title>
+                    </ion-card-header>
+                    <ion-card-content>
+                    </ion-card-content>
+                </ion-card>
+          </ion-col>
+          <ion-col>
+                <ion-card [routerLink]="['/pays']">
+                        <ion-card-header>
+                              <ion-card-subtitle>Cote D'ivoire</ion-card-subtitle>
+                              <ion-card-title style="text-align: center;"><img src="../../assets/images/cote ivoire.png" alt="photo"></ion-card-title>
+                        </ion-card-header>
+                        <ion-card-content>
+                        </ion-card-content>
+                </ion-card>
+          </ion-col>
+      </ion-row>
+  </ion-grid>
+
+</ion-content>

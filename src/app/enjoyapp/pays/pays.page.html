@@ -1,0 +1,37 @@
+<ion-header [translucent]="false" home-header>
+  <p class="entete2">Choisissez votre categorie</p>
+  <ion-item lines="none" color="tertiary" class="search-content">
+    <ion-searchbar  placeholder="rechercher..." ></ion-searchbar>
+  </ion-item>
+  
+  <ion-label>
+    <img class="un" src="../../assets/images/recherche.png" alt="photo">
+  </ion-label>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <ion-button>Autour de moi<ion-icon name="location-sharp"></ion-icon></ion-button>
+    <ion-list>
+        <ion-item [routerLink]="['/villes']">
+            <ion-label><img src="../../../assets/images/restaurant2.webp" alt=""></ion-label>
+            <ion-label><h2>Restaurant</h2></ion-label>
+            <ion-icon color="primary" name="chevron-forward-outline"></ion-icon>
+        </ion-item>
+        <ion-item [routerLink]="['/villes']">
+          <ion-label><img src="../../../assets/images/supermarche.png" alt=""></ion-label>
+          <ion-label><h2>Supermarche</h2></ion-label>
+          <ion-icon color="primary" name="chevron-forward-outline"></ion-icon>
+        </ion-item>
+        <ion-item [routerLink]="['/villes']">
+          <ion-label><img src="../../../assets/images/1.png" alt=""></ion-label>
+          <ion-label><h2>Loisir</h2></ion-label>
+          <ion-icon color="primary" name="chevron-forward-outline"></ion-icon>
+        </ion-item>
+        <ion-item [routerLink]="['/villes']" routerLinkActive="router-link-active" >
+          <ion-label><img src="../../../assets/images/hotel.png" alt=""></ion-label>
+          <ion-label><h2>Hotel</h2></ion-label>
+          <ion-icon color="primary" name="chevron-forward-outline"></ion-icon>
+        </ion-item>
+    </ion-list>
+</ion-content>

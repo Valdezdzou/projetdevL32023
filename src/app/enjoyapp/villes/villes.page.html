@@ -1,0 +1,117 @@
+<ion-header [translucent]="false" home-header>
+  <p class="entete2">Selectionnez</p>
+  <ion-item lines="none" color="tertiary" class="search-content">
+    <ion-searchbar  placeholder="rechercher..." ></ion-searchbar>
+  </ion-item>
+  <ion-label>
+    <img class="un" src="../../assets/images/recherche.png" alt="photo">
+  </ion-label>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <h5>Selectionner une ville</h5>
+  <swiper-container [slidesPerView]="2.5" [initialSlide]="1" [centeredSlides]="false" [spaceBetween]="5" [loop]="true">
+        <swiper-slide>
+            <button>Yaounde</button>
+        </swiper-slide>
+        <swiper-slide>
+            <button>Douala</button>
+        </swiper-slide>
+        <swiper-slide>
+            <button>Bafoussam</button>
+        </swiper-slide>
+        <swiper-slide>
+            <button>Bertoua</button>
+        </swiper-slide>
+        <swiper-slide>
+            <button>Edea</button>
+        </swiper-slide>
+        <swiper-slide>
+            <button>Kribi</button>
+        </swiper-slide>
+        <swiper-slide>
+            <button>Bamenda</button>
+        </swiper-slide>
+        <swiper-slide>
+            <button>Buea</button>
+        </swiper-slide>
+  </swiper-container>
+  <ion-list>
+    <ion-item>
+      <ion-label (click)="voirplus()">
+         <img src="../../../assets/images/hilton.jpg">
+      </ion-label>
+      <ion-label class="text">
+          <h2><b>nom :</b>Hilton</h2>
+          <h2><b>ville :</b>Yaounde</h2>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-button (click)="voirplus()">voir plus</ion-button>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="voirplus()">
+         <img src="../../../assets/images/hilton.jpg">
+      </ion-label>
+      <ion-label class="text" >
+          <h2><b>nom :</b>Hilton</h2>
+          <h2><b>ville :</b>Yaounde</h2>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-button (click)="voirplus()">voir plus</ion-button>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="voirplus()">
+         <img src="../../../assets/images/hilton.jpg">
+      </ion-label>
+      <ion-label class="text">
+          <h2><b>nom :</b>Hilton</h2>
+          <h2><b>ville :</b>Yaounde</h2>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-button (click)="voirplus()">voir plus</ion-button>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="voirplus()">
+         <img src="../../../assets/images/hilton.jpg">
+      </ion-label>
+      <ion-label class="text">
+          <h2><b>nom :</b>Hilton</h2>
+          <h2><b>ville :</b>Yaounde</h2>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-button (click)="voirplus()">voir plus</ion-button>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label (click)="voirplus()">
+         <img src="../../../assets/images/hilton.jpg">
+      </ion-label>
+      <ion-label class="text">
+          <h2><b>nom :</b>Hilton</h2>
+          <h2><b>ville :</b>Yaounde</h2>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-button (click)="voirplus()">voir plus</ion-button>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

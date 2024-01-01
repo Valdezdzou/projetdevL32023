@@ -1,0 +1,53 @@
+.cadre{
+ padding-top: 44px;
+}
+
+ion-card{
+    border-radius: 20px;
+}
+.bout{
+    display: flex;
+    justify-content: center;
+    padding-top:26px;
+}
+
+ion-button{
+    --border-radius: 30px;
+    width: 250px;
+    height: 46px;
+}
+
+ion-content{
+  --background:none;
+  background-image: url('../../../assets/images/connexion.png');
+  background-repeat: no-repeat;
+  // background-color: rgb(94, 87, 175);
+  // background-position: bottom right;
+  background-size:cover;
+  justify-content: center;
+  
+}
+
+  ion-card-content{
+    padding-top: 35px;
+    box-shadow: 0px 6px 5px rgb(233, 232, 232);
+  }
+
+  
+  img{
+    position: absolute;
+    z-index: -1;
+    top: 263px;
+  }
+
+
+ion-input{
+    font-size: larger;
+}
+
+ion-card-title{
+  text-align: center;
+  color: darkblue;
+  font-family: fantasy;
+  font-size: xx-large;
+}
